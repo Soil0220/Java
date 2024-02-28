@@ -1,7 +1,7 @@
 package day02_07;
 
 class BoardService{
-	private BoardService() {
+	public BoardService() {
 		
 	}
 	
@@ -22,7 +22,5 @@ public class SingletonTest {
 		BoardService s2 = BoardService.getInstance();
 		System.out.println(s2);
 		//둘다 해쉬코드가 같다.
-		
-
 	}
 }
